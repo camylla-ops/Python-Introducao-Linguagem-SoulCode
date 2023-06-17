@@ -176,5 +176,110 @@ Exemplo: x = 5 (a variável x receberá o valor 5)
 
 ## Estruturas de condição
 
+Operadores de igualdade 
+
+== 
+!=
+
 1. Operadores de relação e condição
 
+Em Python, os operadores de relação são utilizados para comparar valores e retornar um resultado booleano (verdadeiro ou falso) com base na relação entre os valores. A seguir estão os principais operadores de relação em Python:
+
+Igual a: ==
+
+Diferente de: !=
+
+Maior que: >
+
+Menor que: <
+              
+Maior ou igual a: >=
+
+Menor ou igual a: <=
+
+Exemplos de Uso
+
+``` python
+a = 5
+b = 10
+
+print(a == b)   # False
+print(a != b)   # True
+print(a > b)    # False
+print(a < b)    # True
+print(a >= b)   # False
+print(a <= b)   # True
+```
+
+2. O comando If else
+    comando if é uma estrutura de controle condicional em Python que permite executar um bloco de código se uma determinada condição for verdadeira. O bloco de código dentro do if é executado apenas se a condição especificada for avaliada como verdadeira. Opcionalmente, você também pode usar o else para executar um bloco de código alternativo quando a condição do if for falsa.
+
+Aqui está a sintaxe básica do comando if com else em Python:
+
+```` python
+
+if condição:
+    # Bloco de código a ser executado se a condição for verdadeira
+else:
+    # Bloco de código a ser executado se a condição for falsa
+   ````
+Aqui está um exemplo simples para ilustrar o uso do if e else:
+
+```` python
+
+idade = 18
+
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
+````
+
+Você também pode usar elif para adicionar condições adicionais ao seu comando if. O elif é uma abreviação de "else if" e permite verificar condições adicionais quando a condição anterior é falsa. Aqui está um exemplo:
+
+```` python
+
+idade = 18
+
+if idade < 18:
+    print("Você é menor de idade.")
+elif idade == 18:
+    print("Você tem exatamente 18 anos.")
+else:
+    print("Você é maior de idade.")
+
+````
+## Estruturas de controle de fluxo
+
+1. Estrutura while:
+ 
+ A estrutura while é usada para repetir um bloco de código enquanto uma condição especificada for verdadeira. O bloco de código continuará sendo executado até que a condição se torne falsa.
+ 
+```` python
+while condição:
+    # bloco de código a ser repetido enquanto a condição for verdadeira
+````
+
+exemplo simples que usa um laço while para imprimir os números de 1 a 5:
+```` python 
+contador = 1
+
+while contador <= 5:
+    print(contador)
+    contador += 1   
+````
+
+Neste exemplo, definimos a variável contador com o valor inicial de 1. O bloco de código dentro do while imprime o valor do contador e, em seguida, incrementa o contador em 1. O laço while continua executando enquanto o contador for menor ou igual a 5. Após a execução do bloco de código para o contador igual a 5, a condição se torna falsa e o laço while é interrompido.
+
+A saída deste exemplo será:
+
+```` python
+1
+2
+3
+4
+5
+````
+
+2. Laço de repetição for
+ 
