@@ -14,12 +14,7 @@ O repositório está organizado da seguinte forma:
 
 - [Exercícios](./exercicios): Esta pasta contém os exercícios práticos que fiz durante o curso.
 - `projetos/`: Aqui estão os projetos que desenvolvi como parte do curso.
-- `recursos/`: Nesta pasta, coloquei arquivos de referência e materiais complementares.
-- `notas/`: Aqui estão minhas anotações e resumos do conteúdo do curso.
-
-## Projetos
-
-
+- [Notas](./notas): Aqui estão minhas anotações e resumos do conteúdo do curso.
 
 ## Recursos Adicionais
 
